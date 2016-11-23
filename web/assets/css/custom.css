@@ -1,0 +1,111 @@
+/* ADD */
+
+.job {
+    padding:15px;
+    display: block;
+    height: 170px;
+    background: #FFF;
+    border-radius: 15px 0px;
+    border:1px solid rgb(255, 255, 255);
+    box-shadow:0px 1px 11px -1px rgb(224, 224, 224);
+    margin-bottom: 20px;
+
+}
+.highlight {
+    background: rgb(247, 247, 201);
+}
+.jobTitle {
+    font-size: 1.8em;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic;
+}
+
+.skills {
+    margin-top: 10px;
+}
+.date {
+    margin-bottom: 8px;
+}
+
+.recrut-comp {
+    margin-top: 10px;
+    color:rgb(233, 22, 81);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mainC {
+    background: #FFF;
+    padding: 30px;
+}
+.wellP {
+    background: rgb(223, 243, 229);
+    padding-left: 13px;
+    padding-top: 4px;
+}
+
+.titleSlogan {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 2.4em;
+    font-style: italic;
+    color: rgb(83, 80, 80);
+    padding: 50px;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+#pushSideBar {
+    height: 100px;
+}
+
+.search {
+    margin-left: 140px;
+}
+.contrat {
+    font-weight: 700;
+    margin-left: 160px;
+    color:rgb(146, 33, 209);
+
+}
+/* Sticky footer styles
+     -------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 260px;
+}
+
+#footer {
+    background: #000;
+    background-image: url("../img/box.png");
+    background-position: 114px 204px;
+    background-repeat: repeat-x;
+    color: #ffffff;
+
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

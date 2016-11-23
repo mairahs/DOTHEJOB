@@ -1,0 +1,16 @@
+{
+    "name": "stagiaire/do-the-job",
+    "description": "Formation PHP MVC",
+    "require": {
+        "swiftmailer/swiftmailer": "5.4.0"
+    },
+    "authors": [
+        {
+            "name": "Marie",
+            "email": "m.de.ubeda@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"Kernel\\": "kernel","DTJ\\":"DTJ","App\\":"app"}
+    }
+}
